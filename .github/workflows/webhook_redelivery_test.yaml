@@ -1,5 +1,8 @@
 name: Workflow dispatch Tests
 
+#  This workflow will be triggered by the integration test used to test webhook redelivery.
+# It is not necessary to be picked up by a runner, we only need to ensure a webhook is triggered.
+
 on:
   workflow_dispatch:
 
